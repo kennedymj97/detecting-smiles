@@ -1,0 +1,9 @@
+/data
+
+/images
+
+/onnx_models/resnet18_c.onnx
+/onnx_models/resnet34_c.onnx
+/onnx_models/resnet50_c.onnx
+/onnx_models/resnet101_c.onnx
+/onnx_models/resnet152_c.onnx
