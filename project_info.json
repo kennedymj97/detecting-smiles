@@ -1,0 +1,8 @@
+{
+  data: {
+    title: "Detecting Smiles",
+    summary: "Project that used deep learning to predict if someone is smiling in real time",
+    imageUrl: "https://craigtowens.files.wordpress.com/2011/05/smiling-faces.jpg",
+    readmeUrl: "https://raw.githubusercontent.com/kennedymj97/detecting-smiles/master/README.md"
+  }
+}
