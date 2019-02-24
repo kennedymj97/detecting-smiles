@@ -13,8 +13,7 @@ Project that detects whether or not a person is smiling using Deep Learning in r
 
 ## Example
 
-![Image showing software demonstration]
-(https://i.imgur.com/faS7yxc.png)
+![Image showing software demonstration](https://i.imgur.com/faS7yxc.png)
 
 ## Development Process
 
@@ -30,8 +29,7 @@ Project that detects whether or not a person is smiling using Deep Learning in r
 - The “GENKI-4K subset contains 4000 face images labeled as either “smiling” or “non-smiling””.
 - The “GENKI Database is an expanding database of images containing faces spanning a wide range of illumination conditions, geographical locations, personal identity, and ethnicity.”
 
-![Example images from the dataset]
-(https://i.imgur.com/CdzdAha.png)
+![Example images from the dataset](https://i.imgur.com/CdzdAha.png)
 
 ### Traning the models
 
@@ -51,8 +49,7 @@ The FastAI library was used to train the models, see train_models.ipynb for the 
 
 To ensure that the model used could run on the cpu in real time I trained a variety of models and wrote a jupyter notebook that would carry out 1000 predictions using the models and then calculate the average time for prediction and plot a graph.
 
-![Deep Learning model speed test results]
-(https://i.imgur.com/Rtpepoo.png)
+![Deep Learning model speed test results](https://i.imgur.com/Rtpepoo.png)
 
 These tests showed (as expected) that exporting the models from PyTorch and running them through Caffe2 was by far the quickest method. Also, the results showed that the depth of the network greatly affected the prediction time. For this reason the ResNet18 model was chosen.
 
@@ -66,5 +63,4 @@ The main challenge when writing the main programme was to ensure as high frame r
 - Stack all of the faces in each frame together so they can be put through the model as one batch.
 - Use the multiprocessing library so the main loop is not dependant on prediction time.
 
-![Image of part of the main programme]
-(https://i.imgur.com/C1cmcIZ.png)
+![Image of part of the main programme](https://i.imgur.com/C1cmcIZ.png)
