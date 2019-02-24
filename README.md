@@ -44,6 +44,8 @@ The FastAI library was used to train the models, see train_models.ipynb for the 
     1. All the layers in the ResNet18 model “unfrozen” and trained to tweak the activations to this application.
 1. Convert model to onnx
     1. Model was converted to an onnx format so it could be loaded as a Caffe2 model for faster prediction.
+    
+![Code from train_model.ipynb](https://i.imgur.com/OQFijBE.png)
 
 ### Testing the speed of the models
 
